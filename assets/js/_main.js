@@ -16,7 +16,7 @@ let determineComputedTheme = () => {
   if (themeSetting != "system") {
     return themeSetting;
   }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  return (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
 };
 
 // detect OS/browser preference
@@ -111,12 +111,17 @@ $(document).ready(function () {
 
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
+  const prefersColorScheme = window.matchMedia('(prefers-color-scheme: dark)');
+  const onColorSchemeChange = (e) => {
+    if (!localStorage.getItem("theme")) {
+      setTheme(e.matches ? "dark" : "light");
+    }
+  };
+  if (prefersColorScheme && typeof prefersColorScheme.addEventListener === "function") {
+    prefersColorScheme.addEventListener("change", onColorSchemeChange);
+  } else if (prefersColorScheme && typeof prefersColorScheme.addListener === "function") {
+    prefersColorScheme.addListener(onColorSchemeChange);
+  }
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);

@@ -8,9 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year M.S. student in Computer Engineering at New York University, with solid experience in data structures and full-stack development. I am seeking a Full-time Software Engineer position starting in May 2026.
+I am a second-year M.S. student in Computer Engineering at New York University, with a strong foundation in data structures and hands-on full-stack development experience. I am currently seeking a full-time Software Engineer position starting in May 2026.
 
-I am proficient in Java, Spring Boot, React, and SQL, with project experience in full-stack development and REST API design. I am passionate about new tech stacks, with excellent communication, problem-solving skills, and a friendly demeanor.
+My core stack includes Java, Spring Boot, React, and SQL. I focus on building reliable backend services, clean REST APIs, and user-friendly frontend experiences that solve practical problems.
+
+Across academic and personal projects, I enjoy taking ideas from design to deployment. I have worked on end-to-end systems involving authentication, recommendation, search, cloud deployment, and performance optimization.
+
+I am curious about new technologies, proactive in collaboration, and committed to writing maintainable code. I value clear communication, ownership, and steady execution in team environments.
 
 Education
 ======

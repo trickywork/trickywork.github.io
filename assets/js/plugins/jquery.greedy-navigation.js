@@ -74,9 +74,13 @@ function updateNav() {
 $(window).on('resize', function () {
   updateNav();
 });
-screen.orientation.addEventListener("change", function () {
-  updateNav();
-});
+if (screen.orientation && typeof screen.orientation.addEventListener === "function") {
+  screen.orientation.addEventListener("change", function () {
+    updateNav();
+  });
+} else if (typeof window.addEventListener === "function") {
+  window.addEventListener("orientationchange", updateNav);
+}
 
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');
