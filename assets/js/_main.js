@@ -47,6 +47,25 @@ var toggleTheme = () => {
   setTheme(new_theme);
 };
 
+// Toggle language manually
+var toggleLanguage = () => {
+  const current_path = window.location.pathname;
+  const current_query = window.location.search || '';
+  const current_hash = window.location.hash || '';
+  const is_zh_home = current_path === '/zh' || current_path === '/zh/';
+  const is_zh_page = is_zh_home || current_path.startsWith('/zh/');
+
+  let new_path = '/';
+  if (is_zh_page) {
+    new_path = is_zh_home ? '/' : current_path.replace(/^\/zh(?=\/)/, '');
+  } else {
+    // Only about page has a Chinese mirror now.
+    new_path = current_path === '/' ? '/zh/' : '/zh/';
+  }
+
+  window.location.href = `${new_path}${current_query}${current_hash}`;
+};
+
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
    ========================================================================== */
@@ -101,6 +120,9 @@ $(document).ready(function () {
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
+
+  // Enable the language toggle
+  $('#lang-toggle').on('click', toggleLanguage);
 
   // Enable the sticky footer
   var bumpIt = function () {
