@@ -15,8 +15,17 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          {% assign current_url = page.url | default: "/" %}
+          {% if current_url == "/zh" or current_url == "/zh/" or current_url contains "/zh/" %}
+            {% assign lang_target = current_url | replace_first: "/zh", "" %}
+            {% if lang_target == "" %}
+              {% assign lang_target = "/" %}
+            {% endif %}
+          {% else %}
+            {% assign lang_target = "/zh/" %}
+          {% endif %}
           <li id="lang-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="lang-icon" style="cursor: pointer;">中/EN</a>
+            <a href="{{ base_path }}{{ lang_target }}" role="button" aria-label="toggle language" style="cursor: pointer;">中/EN</a>
           </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
