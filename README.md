@@ -1,5 +1,7 @@
 # junliu.dev Portfolio Site
 
+[![Site CI](https://github.com/trickywork/trickywork.github.io/actions/workflows/site-ci.yml/badge.svg)](https://github.com/trickywork/trickywork.github.io/actions/workflows/site-ci.yml)
+
 Personal portfolio site for Jun Liu. The site is built from the Academic Pages/Minimal Mistakes Jekyll theme and customized to present project demos, GitHub repositories, and deployed Cloud Run applications.
 
 ## Live Site

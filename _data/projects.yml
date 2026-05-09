@@ -187,7 +187,7 @@
   repos:
     - label: "Source"
       label_zh: "源码"
-      url: "https://github.com/trickywork/NetflixNews-CS6083-FinalProject"
+      url: "https://github.com/trickywork/netflix-news-system"
 
 - title: "Portfolio Website"
   title_zh: "个人网站"
