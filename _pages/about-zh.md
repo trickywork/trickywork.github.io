@@ -16,6 +16,14 @@ redirect_from:
 
 我对新技术保持高度好奇，也非常重视工程质量与团队协作：偏好可维护的代码、明确的沟通方式，以及对结果负责的执行节奏。
 
+在线项目演示
+======
+* [NextAI](https://nextai.junliu.dev): 基于 React 和 Node/Express 的 PDF 智能问答项目。
+* [Online Order](https://onlineorder.junliu.dev): 支持菜单浏览、加入购物车和结账流程的在线点餐系统。
+* [SocialAI](https://socialai-gb7rmueyna-uc.a.run.app): 使用 Go 实现的社交发帖与搜索演示项目。
+* [Spotify](https://spotify-gb7rmueyna-uc.a.run.app): 由 Kotlin/Ktor API 支撑的歌单和音乐浏览演示项目。
+* [Twitch Explorer](https://twitch-gb7rmueyna-uc.a.run.app): 基于 React 和 Spring Boot 的 Twitch 搜索与推荐项目。
+
 教育经历
 ======
 * **纽约大学，布鲁克林，纽约，美国**

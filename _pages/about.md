@@ -16,6 +16,14 @@ Across academic and personal projects, I enjoy taking ideas from design to deplo
 
 I am curious about new technologies, proactive in collaboration, and committed to writing maintainable code. I value clear communication, ownership, and steady execution in team environments.
 
+Live Project Demos
+======
+* [NextAI](https://nextai.junliu.dev): AI-powered PDF question answering with a React frontend and Node/Express API.
+* [Online Order](https://onlineorder.junliu.dev): restaurant ordering flow with menu browsing, cart, checkout, and a Spring Boot backend.
+* [SocialAI](https://socialai-gb7rmueyna-uc.a.run.app): social posting/search demo implemented with Go and a lightweight web UI.
+* [Spotify](https://spotify-gb7rmueyna-uc.a.run.app): playlist and music browsing demo backed by a Kotlin/Ktor API.
+* [Twitch Explorer](https://twitch-gb7rmueyna-uc.a.run.app): Twitch search and recommendation demo with React and Spring Boot.
+
 Education
 ======
 * **New York University, Brooklyn, New York, U.S.A**

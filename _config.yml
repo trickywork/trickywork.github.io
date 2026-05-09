@@ -13,7 +13,7 @@ title: "Jun Liu"
 title_separator: "-"
 name: &name "Jun Liu"
 description: &description "Jun Liu's personal website and portfolio"
-url: https://trickywork.github.io
+url: https://junliu.dev
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "trickywork/trickywork.github.io"
 
