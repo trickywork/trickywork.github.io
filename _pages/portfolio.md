@@ -9,8 +9,8 @@ permalink: /portfolio/
 <div class="jun-portfolio">
   <section class="jun-portfolio-hero">
     <p class="jun-kicker">Project Index</p>
-    <h1>Deployed systems with source repos and setup notes</h1>
-    <p class="jun-lede">This page is the public map for my project work. Each entry points to the live demo when available, the relevant GitHub repo or split frontend/backend repos, and the configuration files that make the project reproducible locally.</p>
+    <h1>Projects, demos, and source code</h1>
+    <p class="jun-lede">This page collects the projects I have been working on recently. Each entry links to the live demo when available, the relevant GitHub repo, and the setup notes needed to run or review the project locally.</p>
   </section>
 
   <section class="jun-project-list" aria-label="Project list">
@@ -52,12 +52,12 @@ permalink: /portfolio/
   <section class="jun-assets-panel jun-assets-panel-compact">
     <div>
       <p class="jun-kicker">Local and Cloud Notes</p>
-      <h2>How to read the project packages</h2>
+      <h2>How the projects are organized</h2>
     </div>
     <div class="jun-assets-list">
-      <p><strong>Frontend/backend split:</strong> projects with separate surfaces link both repos so their setup and deployment paths stay clean.</p>
-      <p><strong>Database-backed projects:</strong> schemas, seed data, and environment variables are listed in the repo README and checked-in setup files.</p>
-      <p><strong>Postman:</strong> collections are installed in my local Postman workspace; public repos now point to safe usage notes instead of carrying Postman exports.</p>
+      <p><strong>Frontend/backend split:</strong> when a project has separate frontend and backend code, both repos are linked here.</p>
+      <p><strong>Database-backed projects:</strong> schema files, seed data, and environment variables are documented in the corresponding repo.</p>
+      <p><strong>Postman:</strong> API collections are kept in my local Postman workspace; public repos describe the endpoints without exposing private course materials.</p>
     </div>
   </section>
 </div>
