@@ -476,6 +476,10 @@
     padding-top: 1.1rem;
   }
 
+  .jun-hero {
+    padding-bottom: 1.1rem;
+  }
+
   .jun-hero h1,
   .jun-portfolio-hero h1 {
     font-size: 1.78rem;
@@ -493,7 +497,7 @@
 
   .jun-profile-panel img {
     aspect-ratio: 16 / 9;
-    max-height: 205px;
+    max-height: 170px;
   }
 
   .jun-profile-panel p {
@@ -503,6 +507,10 @@
 
   .jun-profile-facts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jun-profile-facts li {
+    padding: 0.55rem;
   }
 
   .jun-proof-grid div,
