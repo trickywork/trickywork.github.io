@@ -9,7 +9,7 @@ permalink: /portfolio/
 <div class="jun-portfolio">
   <section class="jun-portfolio-hero">
     <p class="jun-kicker">Project Index</p>
-    <h1>Deployed demos, source repos, and setup files</h1>
+    <h1>Deployed systems with source repos and setup notes</h1>
     <p class="jun-lede">This page is the public map for my project work. Each entry points to the live demo when available, the relevant GitHub repo or split frontend/backend repos, and the configuration files that make the project reproducible locally.</p>
   </section>
 
@@ -33,6 +33,9 @@ permalink: /portfolio/
               <span>{{ item }}</span>
             {% endfor %}
           </div>
+          {% if project.domain and project.domain != "" %}
+            <p class="jun-project-domain">{{ project.domain }}</p>
+          {% endif %}
         </div>
         <div class="jun-project-links">
           {% if project.live_url and project.live_url != "" %}

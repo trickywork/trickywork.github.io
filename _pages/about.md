@@ -11,9 +11,10 @@ redirect_from:
 <div class="jun-home">
   <section class="jun-hero" aria-labelledby="jun-home-title">
     <div class="jun-hero-copy">
-      <p class="jun-kicker">Software Engineer · Backend Systems · Cloud Deployment</p>
-      <h1 id="jun-home-title">I build portfolio-ready systems that actually run.</h1>
-      <p class="jun-lede">I am Jun Liu, an M.S. Computer Engineering student at New York University. My work focuses on Java/Spring Boot, React, Python, Go, SQL, Docker, and Google Cloud, with an emphasis on clean APIs, useful interfaces, and deployment notes that make projects easy to inspect.</p>
+      <p class="jun-kicker">Software Engineer · Backend Systems · Applied AI</p>
+      <h1 id="jun-home-title">Jun Liu</h1>
+      <p class="jun-role-line">Backend-leaning full-stack engineer building deployed, inspectable systems.</p>
+      <p class="jun-lede">I am an M.S. Computer Engineering student at New York University. My project work spans Java/Spring Boot, React, Python, Go, SQL, Docker, and Google Cloud, with a focus on clean APIs, useful interfaces, and setup notes that make each demo easy to run and evaluate.</p>
       <div class="jun-hero-actions">
         <a class="jun-button jun-button-primary" href="/portfolio/">View projects</a>
         <a class="jun-button" href="/cv/">Read CV</a>
@@ -24,13 +25,12 @@ redirect_from:
     <aside class="jun-profile-panel" aria-label="Profile summary">
       <img src="/images/avatar.jpg" alt="Jun Liu">
       <div>
-        <h2>Jun Liu</h2>
-        <p>M.S. Computer Engineering, NYU. Seeking full-time Software Engineer roles starting May 2026.</p>
+        <h2>NYU Computer Engineering</h2>
+        <p>Seeking full-time Software Engineer roles starting May 2026, with an emphasis on backend services, cloud deployment, and product-minded full-stack work.</p>
       </div>
       <ul class="jun-profile-facts">
-        <li><span>Focus</span><strong>Backend, cloud, full-stack demos</strong></li>
-        <li><span>Location</span><strong>Jersey City / New York</strong></li>
-        <li><span>Current stack</span><strong>Spring Boot, React, Python, SQL, GCP</strong></li>
+        <li><span>Current base</span><strong>Jersey City / New York</strong></li>
+        <li><span>Core stack</span><strong>Spring Boot, React, Python, SQL, GCP</strong></li>
       </ul>
     </aside>
   </section>
@@ -45,14 +45,18 @@ redirect_from:
       <span>live demos hosted with low-cost cloud settings</span>
     </div>
     <div>
-      <strong>API-first</strong>
-      <span>README, Docker, database, and local setup notes kept close to code</span>
+      <strong>CI</strong>
+      <span>public repos include build checks and cleaner project history</span>
+    </div>
+    <div>
+      <strong>Docs</strong>
+      <span>README, Docker, database, and local setup notes stay close to code</span>
     </div>
   </section>
 
   <section class="jun-section-heading">
     <p class="jun-kicker">Selected Work</p>
-    <h2>Projects with demos, source repos, and setup files</h2>
+    <h2>Live demos, source repos, and setup files in one place</h2>
   </section>
 
   <section class="jun-project-grid" aria-label="Project demos and repositories">
@@ -74,6 +78,9 @@ redirect_from:
             <span>{{ item }}</span>
           {% endfor %}
         </div>
+        {% if project.domain and project.domain != "" %}
+          <p class="jun-project-domain">{{ project.domain }}</p>
+        {% endif %}
         <div class="jun-card-actions">
           {% if project.live_url and project.live_url != "" %}
             <a class="jun-button jun-button-primary" href="{{ project.live_url }}">Open demo</a>
@@ -89,7 +96,7 @@ redirect_from:
   <section class="jun-assets-panel" aria-labelledby="jun-assets-title">
     <div>
       <p class="jun-kicker">Engineering Assets</p>
-      <h2 id="jun-assets-title">What the project links are meant to prove</h2>
+      <h2 id="jun-assets-title">What each project package is meant to show</h2>
     </div>
     <div class="jun-assets-list">
       <p><strong>Runnable code:</strong> each public repo is organized around local startup instructions and expected results.</p>

@@ -8,6 +8,7 @@
   summary: "PDF question-answering and voice chat app with a React interface, Express API, document upload, and OpenAI/LangChain retrieval flow."
   summary_zh: "PDF 智能问答和语音交互应用，包含 React 界面、Express API、文档上传，以及 OpenAI/LangChain 检索流程。"
   live_url: "https://nextai.junliu.dev"
+  domain: "nextai.junliu.dev"
   stack:
     - "React"
     - "Express"
@@ -34,6 +35,7 @@
   summary: "Restaurant ordering system with signup/login, menu browsing, cart operations, checkout, Spring Boot APIs, and React frontend."
   summary_zh: "在线点餐系统，支持注册登录、菜单浏览、购物车、结账、Spring Boot API 和 React 前端。"
   live_url: "https://onlineorder.junliu.dev"
+  domain: "onlineorder.junliu.dev"
   stack:
     - "Spring Boot"
     - "React"
@@ -62,7 +64,8 @@
   footprint_zh: "社交搜索"
   summary: "Go web service for signup, signin, post upload, deletion, and search, with demo-mode storage for low-cost portfolio hosting."
   summary_zh: "Go 后端服务，支持注册、登录、发帖、删除和搜索，并使用 demo 模式降低作品集部署成本。"
-  live_url: "https://socialai-gb7rmueyna-uc.a.run.app"
+  live_url: "https://socialai.junliu.dev"
+  domain: "socialai.junliu.dev"
   stack:
     - "Go"
     - "JWT"
@@ -88,7 +91,8 @@
   footprint_zh: "音乐界面"
   summary: "Music browsing demo with feed, playlist detail, track metadata, simulated playback controls, and a Kotlin/Ktor API."
   summary_zh: "音乐浏览演示项目，包含首页 feed、歌单详情、歌曲元数据、模拟播放控件和 Kotlin/Ktor API。"
-  live_url: "https://spotify-gb7rmueyna-uc.a.run.app"
+  live_url: "https://spotify.junliu.dev"
+  domain: "spotify.junliu.dev"
   stack:
     - "Kotlin"
     - "Ktor"
@@ -117,7 +121,8 @@
   footprint_zh: "推荐系统"
   summary: "Twitch discovery and recommendation demo with game search, streams/videos/clips, favorites, demo data, and split frontend/backend repos."
   summary_zh: "Twitch 搜索与推荐项目，包含游戏搜索、直播/视频/剪辑、收藏、demo 数据，以及前后端分离 repo。"
-  live_url: "https://twitch-gb7rmueyna-uc.a.run.app"
+  live_url: "https://twitch.junliu.dev"
+  domain: "twitch.junliu.dev"
   stack:
     - "Spring Boot"
     - "React"
@@ -146,7 +151,8 @@
   footprint_zh: "计算机视觉"
   summary: "FastAPI video processing app that detects people with YOLO, tracks identities with DeepSORT, and exports annotated video plus trajectory maps."
   summary_zh: "FastAPI 视频处理应用，使用 YOLO 检测人物、DeepSORT 追踪身份，并导出标注视频和轨迹图。"
-  live_url: "https://crowd-tracking-gb7rmueyna-uc.a.run.app"
+  live_url: "https://crowdtracking.junliu.dev"
+  domain: "crowdtracking.junliu.dev"
   stack:
     - "FastAPI"
     - "YOLO"
@@ -173,6 +179,7 @@
   summary: "Spring Boot and MySQL management system with JWT auth, static admin screens, dashboards, schema/seed SQL, and Docker packaging."
   summary_zh: "Spring Boot 和 MySQL 管理系统，包含 JWT 认证、静态管理页面、仪表盘、SQL schema/seed 和 Docker 打包。"
   live_url: ""
+  domain: ""
   stack:
     - "Spring Boot"
     - "MySQL"
@@ -199,6 +206,7 @@
   summary: "GitHub Pages portfolio rebuilt as a clean project hub for live demos, source repos, deployment notes, and local setup references."
   summary_zh: "基于 GitHub Pages 的个人作品集，重新设计为项目入口，集中展示在线演示、源码、部署说明和本地配置索引。"
   live_url: "https://junliu.dev"
+  domain: "junliu.dev"
   stack:
     - "Jekyll"
     - "SCSS"
