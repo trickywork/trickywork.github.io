@@ -1,28 +1,90 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About Me"
+title:
+excerpt: "Software Engineer portfolio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a second-year M.S. student in Computer Engineering at New York University, with a strong foundation in data structures and hands-on full-stack development experience. I am currently seeking a full-time Software Engineer position starting in May 2026.
+<div class="jun-home">
+  <section class="jun-hero" aria-labelledby="jun-home-title">
+    <div>
+      <p class="jun-eyebrow">Software Engineer · Backend Systems · Cloud Demos</p>
+      <h1 id="jun-home-title">Jun Liu</h1>
+      <p class="jun-lede">I am a second-year M.S. student in Computer Engineering at New York University, building practical full-stack systems with Java, Spring Boot, React, SQL, Python, and Google Cloud. I like turning project specs into deployed products with clear APIs, useful interfaces, and maintainable engineering notes.</p>
+      <div class="jun-hero-actions">
+        <a class="jun-button jun-button-primary" href="/portfolio/">View projects</a>
+        <a class="jun-button" href="/cv/">Read CV</a>
+        <a class="jun-button" href="https://github.com/trickywork">GitHub</a>
+      </div>
+    </div>
+    <div class="jun-portrait">
+      <img src="/images/avatar.jpg" alt="Jun Liu">
+      <div class="jun-signal">Currently seeking full-time Software Engineer roles starting in May 2026, with a focus on backend services, cloud deployment, and product-minded full-stack work.</div>
+    </div>
+  </section>
 
-My core stack includes Java, Spring Boot, React, and SQL. I focus on building reliable backend services, clean REST APIs, and user-friendly frontend experiences that solve practical problems.
+  <section class="jun-metrics" aria-label="Portfolio highlights">
+    <div class="jun-metric">
+      <strong>6</strong>
+      <span>live portfolio demos connected to this site</span>
+    </div>
+    <div class="jun-metric">
+      <strong>Cloud Run</strong>
+      <span>low-cost deployments with GitHub-backed project history</span>
+    </div>
+    <div class="jun-metric">
+      <strong>API first</strong>
+      <span>Postman, database notes, and local setup kept with each repo</span>
+    </div>
+  </section>
 
-Across academic and personal projects, I enjoy taking ideas from design to deployment. I have worked on end-to-end systems involving authentication, recommendation, search, cloud deployment, and performance optimization.
+  <h2 class="jun-section-title">Live Project Demos</h2>
+  <section class="jun-project-grid" aria-label="Live project demos">
+    <article class="jun-project-card">
+      <h3>NextAI</h3>
+      <p>PDF question answering app with a React interface, Node/Express API, and document-grounded AI workflow.</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">React</span><span class="jun-chip">Express</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://nextai.junliu.dev">Open demo</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Online Order</h3>
+      <p>Restaurant ordering flow with menu browsing, cart actions, checkout, and a Spring Boot backend.</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">Spring Boot</span><span class="jun-chip">React</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://onlineorder.junliu.dev">Open demo</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Crowd Tracking</h3>
+      <p>Video upload service that detects people with YOLO, tracks identities with DeepSORT, and renders a trajectory map beside the processed video.</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">FastAPI</span><span class="jun-chip">YOLO</span><span class="jun-chip">DeepSORT</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://crowd-tracking-gb7rmueyna-uc.a.run.app">Open demo</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>SocialAI</h3>
+      <p>Social posting and search demo implemented with Go, lightweight storage, and a portable web UI.</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">Go</span><span class="jun-chip">Search</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://socialai-gb7rmueyna-uc.a.run.app">Open demo</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Spotify</h3>
+      <p>Music browsing demo backed by a Kotlin/Ktor API with feed, playlist, and playback-style UI states.</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">Kotlin</span><span class="jun-chip">Ktor</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://spotify-gb7rmueyna-uc.a.run.app">Open demo</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Twitch Explorer</h3>
+      <p>Twitch search and recommendation demo with React, Spring Boot, demo-mode data, and portable cloud deployment.</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">React</span><span class="jun-chip">Spring Boot</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://twitch-gb7rmueyna-uc.a.run.app">Open demo</a></div>
+    </article>
+  </section>
 
-I am curious about new technologies, proactive in collaboration, and committed to writing maintainable code. I value clear communication, ownership, and steady execution in team environments.
-
-Live Project Demos
-======
-* [NextAI](https://nextai.junliu.dev): AI-powered PDF question answering with a React frontend and Node/Express API.
-* [Online Order](https://onlineorder.junliu.dev): restaurant ordering flow with menu browsing, cart, checkout, and a Spring Boot backend.
-* [SocialAI](https://socialai-gb7rmueyna-uc.a.run.app): social posting/search demo implemented with Go and a lightweight web UI.
-* [Spotify](https://spotify-gb7rmueyna-uc.a.run.app): playlist and music browsing demo backed by a Kotlin/Ktor API.
-* [Twitch Explorer](https://twitch-gb7rmueyna-uc.a.run.app): Twitch search and recommendation demo with React and Spring Boot.
+  <div class="jun-focus-band">
+    <p>My core stack includes Java, Spring Boot, React, SQL, Python, Docker, and cloud deployment. Across academic and personal projects, I focus on reliable backend services, clean REST APIs, and frontends that make the main workflow easy to test.</p>
+  </div>
+</div>
 
 Education
 ======
@@ -65,6 +127,11 @@ Work Experience
 
 Practical Experience
 ======
+**Crowd Tracking: Video-Based Person Tracking and Trajectory Visualization**
+* Rebuilt a computer vision demo that accepts common video formats, detects people with a YOLO model, and maintains identities frame-by-frame with DeepSORT.
+* Implemented a **FastAPI** backend that produces annotated videos, trajectory mini-maps, JSON/CSV tracking exports, and job summaries for local review.
+* Prepared Docker, Cloud Build, Postman, and deployment configuration for a low-cost **Google Cloud Run** portfolio service.
+
 **Twitch+: A Personalized Twitch Resources Recommendation Engine**
 * Designed and built a full-stack **Spring Boot** application deployed to **AWS App Runner** for users to search Twitch resources and get recommendations, along with a user-friendly frontend using **React** and **Ant Design**.
 * Implemented **RESTful APIs** to retrieve real Twitch resources via **Twitch API** with **OpenFeign** HTTP client, and managed user authentication (register/login/logout) using **Spring Security**.

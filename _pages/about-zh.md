@@ -1,28 +1,90 @@
 ---
 permalink: /zh/
-title: "关于我"
-excerpt: "关于我"
+title:
+excerpt: "软件工程作品集"
 author_profile: true
 redirect_from: 
   - /about-zh/
   - /about-zh.html
 ---
 
-我目前就读于纽约大学计算机工程硕士项目（二年级），在数据结构、后端开发和全栈工程方面积累了扎实的实践经验。正在积极寻找 2026 年 5 月开始的全职软件工程师岗位。
+<div class="jun-home">
+  <section class="jun-hero" aria-labelledby="jun-home-title-zh">
+    <div>
+      <p class="jun-eyebrow">Software Engineer · Backend Systems · Cloud Demos</p>
+      <h1 id="jun-home-title-zh">Jun Liu</h1>
+      <p class="jun-lede">我目前就读于纽约大学计算机工程硕士项目（二年级），主要使用 Java、Spring Boot、React、SQL、Python 和 Google Cloud 构建可运行、可部署、可维护的全栈项目。我喜欢把项目要求整理成清晰的 API、可交互的前端和完整的本地/云端运行说明。</p>
+      <div class="jun-hero-actions">
+        <a class="jun-button jun-button-primary" href="/portfolio/">查看项目</a>
+        <a class="jun-button" href="/cv/">查看 CV</a>
+        <a class="jun-button" href="https://github.com/trickywork">GitHub</a>
+      </div>
+    </div>
+    <div class="jun-portrait">
+      <img src="/images/avatar.jpg" alt="Jun Liu">
+      <div class="jun-signal">正在寻找 2026 年 5 月开始的全职软件工程师岗位，重点方向是后端服务、云端部署和产品导向的全栈开发。</div>
+    </div>
+  </section>
 
-我的核心技术栈是 Java、Spring Boot、React 和 SQL，重点方向是构建稳定可靠的后端服务、清晰易维护的 REST API，以及体验流畅的前端交互。
+  <section class="jun-metrics" aria-label="作品集概览">
+    <div class="jun-metric">
+      <strong>6</strong>
+      <span>个已经接入个人网站的在线项目演示</span>
+    </div>
+    <div class="jun-metric">
+      <strong>Cloud Run</strong>
+      <span>低成本部署，并保留 GitHub 项目历史</span>
+    </div>
+    <div class="jun-metric">
+      <strong>API first</strong>
+      <span>每个项目尽量保留 Postman、数据库和本地配置说明</span>
+    </div>
+  </section>
 
-在多个课程与个人项目中，我持续完成从需求分析、系统设计到上线部署的完整流程，覆盖用户认证、推荐系统、搜索能力、云端部署和性能优化等关键环节。
+  <h2 class="jun-section-title">在线项目演示</h2>
+  <section class="jun-project-grid" aria-label="在线项目演示">
+    <article class="jun-project-card">
+      <h3>NextAI</h3>
+      <p>基于 React 和 Node/Express 的 PDF 智能问答项目，支持文档上传和上下文问答。</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">React</span><span class="jun-chip">Express</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://nextai.junliu.dev">打开演示</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Online Order</h3>
+      <p>在线点餐流程，支持菜单浏览、加入购物车、结账和 Spring Boot 后端 API。</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">Spring Boot</span><span class="jun-chip">React</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://onlineorder.junliu.dev">打开演示</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Crowd Tracking</h3>
+      <p>上传视频后，用 YOLO 检测人物、DeepSORT 追踪 ID，并在处理后的视频旁边绘制轨迹小图。</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">FastAPI</span><span class="jun-chip">YOLO</span><span class="jun-chip">DeepSORT</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://crowd-tracking-gb7rmueyna-uc.a.run.app">打开演示</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>SocialAI</h3>
+      <p>使用 Go 实现的社交发帖与搜索演示项目，带有轻量级 Web UI。</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">Go</span><span class="jun-chip">Search</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://socialai-gb7rmueyna-uc.a.run.app">打开演示</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Spotify</h3>
+      <p>由 Kotlin/Ktor API 支撑的音乐浏览演示项目，包含歌单、歌曲和播放状态界面。</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">Kotlin</span><span class="jun-chip">Ktor</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://spotify-gb7rmueyna-uc.a.run.app">打开演示</a></div>
+    </article>
+    <article class="jun-project-card">
+      <h3>Twitch Explorer</h3>
+      <p>基于 React 和 Spring Boot 的 Twitch 搜索与推荐项目，支持 demo 数据和云端部署。</p>
+      <div class="jun-chip-row"><span class="jun-chip jun-chip-live">Live</span><span class="jun-chip">React</span><span class="jun-chip">Spring Boot</span></div>
+      <div class="jun-card-actions"><a class="jun-button jun-button-primary" href="https://twitch-gb7rmueyna-uc.a.run.app">打开演示</a></div>
+    </article>
+  </section>
 
-我对新技术保持高度好奇，也非常重视工程质量与团队协作：偏好可维护的代码、明确的沟通方式，以及对结果负责的执行节奏。
-
-在线项目演示
-======
-* [NextAI](https://nextai.junliu.dev): 基于 React 和 Node/Express 的 PDF 智能问答项目。
-* [Online Order](https://onlineorder.junliu.dev): 支持菜单浏览、加入购物车和结账流程的在线点餐系统。
-* [SocialAI](https://socialai-gb7rmueyna-uc.a.run.app): 使用 Go 实现的社交发帖与搜索演示项目。
-* [Spotify](https://spotify-gb7rmueyna-uc.a.run.app): 由 Kotlin/Ktor API 支撑的歌单和音乐浏览演示项目。
-* [Twitch Explorer](https://twitch-gb7rmueyna-uc.a.run.app): 基于 React 和 Spring Boot 的 Twitch 搜索与推荐项目。
+  <div class="jun-focus-band">
+    <p>我的核心技术栈包括 Java、Spring Boot、React、SQL、Python、Docker 和云端部署。项目实践中，我重点关注稳定的后端服务、清晰的 REST API，以及方便测试主要流程的前端体验。</p>
+  </div>
+</div>
 
 教育经历
 ======
@@ -65,6 +127,11 @@ redirect_from:
 
 实践经验
 ======
+**Crowd Tracking: 视频人物追踪与轨迹可视化**
+* 重建了一个计算机视觉演示项目，支持常见视频格式上传，使用 YOLO 检测人物，并通过 DeepSORT 在每一帧维护人物身份。
+* 实现了 **FastAPI** 后端，可生成标注后的视频、轨迹小图、JSON/CSV 追踪结果和任务摘要，方便本地复盘。
+* 准备了 Docker、Cloud Build、Postman 和部署配置，用于低成本 **Google Cloud Run** 作品集服务。
+
 **Twitch+: 个性化的 Twitch 资源推荐引擎**
 * 设计并构建了一个部署到 **AWS App Runner** 的全栈 **Spring Boot** 应用程序，供用户搜索 Twitch 资源并获得推荐，以及一个使用 **React** 和 **Ant Design** 的用户友好的前端。
 * 实施了 **RESTful API** 以通过 **Twitch API** 与 **OpenFeign** HTTP 客户端检索真实的 Twitch 资源，并使用 **Spring Security** 管理用户身份验证（注册/登录/注销）。
