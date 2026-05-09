@@ -483,8 +483,26 @@
   }
 
   .jun-lede {
-    font-size: 0.95rem;
-    line-height: 1.6;
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .jun-profile-panel {
+    gap: 0.65rem;
+  }
+
+  .jun-profile-panel img {
+    aspect-ratio: 16 / 9;
+    max-height: 205px;
+  }
+
+  .jun-profile-panel p {
+    font-size: 0.86rem;
+    line-height: 1.45;
+  }
+
+  .jun-profile-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .jun-proof-grid div,
@@ -495,8 +513,7 @@
   }
 
   .jun-proof-grid,
-  .jun-project-grid,
-  .jun-profile-facts {
+  .jun-project-grid {
     grid-template-columns: 1fr;
   }
 
