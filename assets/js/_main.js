@@ -49,6 +49,12 @@ var toggleTheme = () => {
 
 // Toggle language manually
 var toggleLanguage = () => {
+  const langLink = document.querySelector('#lang-toggle a[href]');
+  if (langLink && langLink.href) {
+    window.location.href = langLink.href;
+    return;
+  }
+
   const current_path = window.location.pathname;
   const current_query = window.location.search || '';
   const current_hash = window.location.hash || '';
